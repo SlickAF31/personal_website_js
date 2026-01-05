@@ -1,0 +1,266 @@
+const translations = {
+    en: {
+        nav: {
+            about: "About",
+            services: "Services",
+            works: "Works",
+            blogs: "Blogs",
+            contact: "Contact"
+        },
+        sidebar: {
+            name: "Chevereșan Raul-Gabriel",
+            position: "Hardware/Electrical Engineer at",
+            company: "Diamond Apps AG",
+            downloadResume: "Download Resume",
+            aboutMe: "About Me",
+            description: "I am a hardware and embedded software engineer based in Switzerland. I work with embedded systems, IoT projects, and power electronics. I studied Electronics at Politehnica University Timișoara and hold a Residential Permit Type B."
+        },
+        about: {
+            title: "Who am I?",
+            description: "I work with embedded boards, sensors, radios, and power electronics. I write firmware in C and C++, design circuits, run tests, and fix problems fast. I developed automotive buck converters and DSP control while working at Hella Forvia. Now I work at Diamond Apps AG where I automate systems, build robotic control, and deliver end to end solutions. I enjoy working with real hardware, improving designs, and turning ideas into working products. I focus on embedded development, automation, and clean, efficient engineering."
+        },
+        skills: {
+            title: "Skills",
+            programmingLanguages: "Programming Languages",
+            advanced: "Advanced:",
+            intermediate: "Intermediate:",
+            basic: "Basic:",
+            tools: "Tools",
+            technical: "Technical",
+            softSkills: "Soft-skills",
+            spokenLanguages: "Spoken Languages"
+        },
+        services: {
+            pcbDesign: {
+                title: "PCB Design",
+                description: "Create clean PCB layouts for prototypes or products. Stable routing, smart component placement, ready for assembly."
+            },
+            embeddedSoftware: {
+                title: "Embedded C Software",
+                description: "Build firmware for microcontrollers and sensors. Reliable control, efficient code, real hardware results."
+            },
+            circuitTesting: {
+                title: "Electronic Circuit Testing",
+                description: "Run signal checks, debug faults, measure performance, improve stability through testing."
+            },
+            iotIntegration: {
+                title: "IoT System Integration",
+                description: "Connect hardware to the cloud or local apps using BLE or WiFi. Real time control and monitoring."
+            },
+            modeling3d: {
+                title: "3D Modeling",
+                description: "Model enclosures and mechanical parts in Fusion 360. Print ready files for hardware integration."
+            },
+            prototyping: {
+                title: "Hardware Prototyping",
+                description: "Assemble electronics, firmware, and mechanics into a functional prototype fast with clear validation steps."
+            }
+        },
+        contact: {
+            title: "Get in Touch",
+            phone: "Phone",
+            whatsapp: "WhatsApp",
+            email: "Email",
+            location: "Location",
+            callMe: "Call me",
+            openWhatsapp: "Open WhatsApp",
+            sendEmail: "Send email",
+            whatsappMessage: "Message me on WhatsApp",
+            locationValue: "Switzerland",
+            connectWithMe: "Connect with me",
+            github: "GitHub",
+            linkedin: "LinkedIn"
+        },
+        blog: {
+            title: "Blog Coming Soon",
+            description: "I'm currently working on sharing technical insights, project case studies, and engineering solutions. This space will feature articles on embedded systems, hardware design, and practical engineering challenges.",
+            stayTuned: "Stay tuned for upcoming content."
+        },
+        portfolio: {
+            viewDetails: "View Details",
+            backToProjects: "Back to Projects",
+            overview: "Overview",
+            roleResponsibilities: "Role & Responsibilities",
+            technologiesUsed: "Technologies Used",
+            challenges: "Key Technical Challenges & Resolutions",
+            outcome: "Outcome",
+            viewOnGithub: "View on GitHub"
+        }
+    },
+    de: {
+        nav: {
+            about: "Über mich",
+            services: "Dienstleistungen",
+            works: "Arbeiten",
+            blogs: "Blogs",
+            contact: "Kontakt"
+        },
+        sidebar: {
+            name: "Chevereșan Raul-Gabriel",
+            position: "Hardware/Elektrotechniker bei",
+            company: "Diamond Apps AG",
+            downloadResume: "Lebenslauf herunterladen",
+            aboutMe: "Über mich",
+            description: "Ich bin ein Hardware- und Embedded-Software-Ingenieur in der Schweiz. Ich arbeite mit eingebetteten Systemen, IoT-Projekten und Leistungselektronik. Ich habe Elektronik an der Politehnica Universität Timișoara studiert und besitze eine Aufenthaltsbewilligung Typ B."
+        },
+        about: {
+            title: "Wer bin ich?",
+            description: "Ich arbeite mit eingebetteten Boards, Sensoren, Funkgeräten und Leistungselektronik. Ich schreibe Firmware in C und C++, entwerfe Schaltungen, führe Tests durch und behebe Probleme schnell. Ich habe Automotive-Buck-Wandler und DSP-Steuerung bei Hella Forvia entwickelt. Jetzt arbeite ich bei Diamond Apps AG, wo ich Systeme automatisiere, Robotersteuerung baue und End-to-End-Lösungen liefere."
+        },
+        skills: {
+            title: "Fähigkeiten",
+            programmingLanguages: "Programmiersprachen",
+            advanced: "Fortgeschritten:",
+            intermediate: "Mittel:",
+            basic: "Grundkenntnisse:",
+            tools: "Werkzeuge",
+            technical: "Technisch",
+            softSkills: "Soft-Skills",
+            spokenLanguages: "Gesprochene Sprachen"
+        },
+        services: {
+            pcbDesign: {
+                title: "PCB-Design",
+                description: "Erstellen Sie saubere PCB-Layouts für Prototypen oder Produkte. Stabile Verdrahtung, intelligente Komponentenplatzierung, bereit für die Montage."
+            },
+            embeddedSoftware: {
+                title: "Embedded C Software",
+                description: "Firmware für Mikrocontroller und Sensoren entwickeln. Zuverlässige Steuerung, effizienter Code, echte Hardware-Ergebnisse."
+            },
+            circuitTesting: {
+                title: "Elektronische Schaltungsprüfung",
+                description: "Signalprüfungen durchführen, Fehler debuggen, Leistung messen, Stabilität durch Tests verbessern."
+            },
+            iotIntegration: {
+                title: "IoT-Systemintegration",
+                description: "Hardware über BLE oder WiFi mit der Cloud oder lokalen Apps verbinden. Echtzeitsteuerung und -überwachung."
+            },
+            modeling3d: {
+                title: "3D-Modellierung",
+                description: "Gehäuse und mechanische Teile in Fusion 360 modellieren. Druckfertige Dateien für Hardware-Integration."
+            },
+            prototyping: {
+                title: "Hardware-Prototyping",
+                description: "Elektronik, Firmware und Mechanik schnell zu einem funktionsfähigen Prototyp mit klaren Validierungsschritten zusammenbauen."
+            }
+        },
+        contact: {
+            title: "Kontaktieren Sie mich",
+            phone: "Telefon",
+            whatsapp: "WhatsApp",
+            email: "E-Mail",
+            location: "Standort",
+            callMe: "Rufen Sie mich an",
+            openWhatsapp: "WhatsApp öffnen",
+            sendEmail: "E-Mail senden",
+            whatsappMessage: "Schreiben Sie mir auf WhatsApp",
+            locationValue: "Schweiz",
+            connectWithMe: "Verbinden Sie sich mit mir",
+            github: "GitHub",
+            linkedin: "LinkedIn"
+        },
+        blog: {
+            title: "Blog kommt bald",
+            description: "Ich arbeite derzeit daran, technische Einblicke, Projektfallstudien und Engineering-Lösungen zu teilen. Dieser Bereich wird Artikel über eingebettete Systeme, Hardware-Design und praktische Engineering-Herausforderungen enthalten.",
+            stayTuned: "Bleiben Sie dran für kommende Inhalte."
+        },
+        portfolio: {
+            viewDetails: "Details anzeigen",
+            backToProjects: "Zurück zu Projekten",
+            overview: "Überblick",
+            roleResponsibilities: "Rolle & Verantwortlichkeiten",
+            technologiesUsed: "Verwendete Technologien",
+            challenges: "Wichtigste technische Herausforderungen & Lösungen",
+            outcome: "Ergebnis",
+            viewOnGithub: "Auf GitHub ansehen"
+        }
+    },
+    fr: {
+        nav: {
+            about: "À propos",
+            services: "Services",
+            works: "Travaux",
+            blogs: "Blogs",
+            contact: "Contact"
+        },
+        sidebar: {
+            name: "Chevereșan Raul-Gabriel",
+            position: "Ingénieur matériel/électrique chez",
+            company: "Diamond Apps AG",
+            downloadResume: "Télécharger le CV",
+            aboutMe: "À propos de moi",
+            description: "Je suis ingénieur en matériel et logiciels embarqués basé en Suisse. Je travaille avec des systèmes embarqués, des projets IoT et de l'électronique de puissance. J'ai étudié l'électronique à l'Université Politehnica de Timișoara et je détiens un permis de séjour de type B."
+        },
+        about: {
+            title: "Qui suis-je?",
+            description: "Je travaille avec des cartes embarquées, des capteurs, des radios et de l'électronique de puissance. J'écris des firmwares en C et C++, conçois des circuits, effectue des tests et résous rapidement les problèmes. J'ai développé des convertisseurs buck automobiles et des commandes DSP en travaillant chez Hella Forvia. Maintenant, je travaille chez Diamond Apps AG où j'automatise des systèmes, construis des commandes robotiques et livre des solutions de bout en bout."
+        },
+        skills: {
+            title: "Compétences",
+            programmingLanguages: "Langages de programmation",
+            advanced: "Avancé:",
+            intermediate: "Intermédiaire:",
+            basic: "Base:",
+            tools: "Outils",
+            technical: "Technique",
+            softSkills: "Compétences personnelles",
+            spokenLanguages: "Langues parlées"
+        },
+        services: {
+            pcbDesign: {
+                title: "Conception de PCB",
+                description: "Créer des layouts PCB propres pour prototypes ou produits. Routage stable, placement intelligent des composants, prêt pour l'assemblage."
+            },
+            embeddedSoftware: {
+                title: "Logiciel embarqué C",
+                description: "Construire des firmwares pour microcontrôleurs et capteurs. Contrôle fiable, code efficace, résultats matériels réels."
+            },
+            circuitTesting: {
+                title: "Test de circuits électroniques",
+                description: "Effectuer des vérifications de signal, déboguer les défauts, mesurer les performances, améliorer la stabilité par les tests."
+            },
+            iotIntegration: {
+                title: "Intégration de systèmes IoT",
+                description: "Connecter le matériel au cloud ou aux applications locales en utilisant BLE ou WiFi. Contrôle et surveillance en temps réel."
+            },
+            modeling3d: {
+                title: "Modélisation 3D",
+                description: "Modéliser des boîtiers et des pièces mécaniques dans Fusion 360. Fichiers prêts à imprimer pour l'intégration matérielle."
+            },
+            prototyping: {
+                title: "Prototypage matériel",
+                description: "Assembler rapidement l'électronique, le firmware et la mécanique en un prototype fonctionnel avec des étapes de validation claires."
+            }
+        },
+        contact: {
+            title: "Contactez-moi",
+            phone: "Téléphone",
+            whatsapp: "WhatsApp",
+            email: "E-mail",
+            location: "Localisation",
+            callMe: "Appelez-moi",
+            openWhatsapp: "Ouvrir WhatsApp",
+            sendEmail: "Envoyer un e-mail",
+            whatsappMessage: "Envoyez-moi un message sur WhatsApp",
+            locationValue: "Suisse",
+            connectWithMe: "Connectez-vous avec moi",
+            github: "GitHub",
+            linkedin: "LinkedIn"
+        },
+        blog: {
+            title: "Blog à venir",
+            description: "Je travaille actuellement sur le partage d'informations techniques, d'études de cas de projets et de solutions d'ingénierie. Cet espace présentera des articles sur les systèmes embarqués, la conception matérielle et les défis d'ingénierie pratiques.",
+            stayTuned: "Restez à l'écoute pour le contenu à venir."
+        },
+        portfolio: {
+            viewDetails: "Voir les détails",
+            backToProjects: "Retour aux projets",
+            overview: "Aperçu",
+            roleResponsibilities: "Rôle et responsabilités",
+            technologiesUsed: "Technologies utilisées",
+            challenges: "Principaux défis techniques et résolutions",
+            outcome: "Résultat",
+            viewOnGithub: "Voir sur GitHub"
+        }
+    }
+};
